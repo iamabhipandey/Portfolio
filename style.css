@@ -79,6 +79,10 @@ nav ul li a:hover::after{
     margin-top: 20px;
     color: #262626;
 }
+.header_text P{
+    color: #080808;
+    font-weight: 500;
+}
 .header_text h1 span{
     color: red;
 }
@@ -346,15 +350,24 @@ nav .fas{
     .header_text{
         margin-top: 100%;
         font-size: 15px;
+        display: inline-block;
+       
+    }
+    .header_text P{
+        color:aliceblue;
+        font-weight: 500;
     }  
     .header_text h1{
-        font-size: 30px;
-
+        font-size: 35px;
+        color:white;
     }
     nav .fas{
         display: block;
         font-size: 25px;
 
+    }
+    nav .fa-bars{
+       color: black;
     }
     nav ul{
         background: #ff004f;
